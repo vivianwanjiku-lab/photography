@@ -1,0 +1,65 @@
+body {
+      background: #fef7e8;    /* warm sandy tone */
+      font-family: system-ui, 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+      line-height: 1.5;
+      color: #1e2a2f;
+    }
+
+    .header h1 {
+      font-size: 2.8rem;
+      letter-spacing: -0.01em;
+      background: linear-gradient(135deg, #2b6e4f, #c97e5a);
+      background-clip: text;
+      -webkit-background-clip: text;
+      color: transparent;
+      text-shadow: 2px 2px 12px rgba(0,0,0,0.05);
+    }
+
+    .p {
+      font-size: 1.2rem;
+      color: #2c3e2f;
+      margin-bottom: 0.8rem;
+    }
+
+   .gallery-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.8rem;
+      list-style: none;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    .gallery-list li {
+      background: #fffbf2;
+      border-radius: 28px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      transition: all 0.25s ease;
+      max-width: 300px;
+      flex: 1 1 260px;
+      border: 1px solid #ffe1bc;
+    }
+
+    .cta-section {
+      background: #e7d9c6;
+      border-radius: 48px;
+      padding: 2.5rem 2rem;
+      text-align: center;
+      margin: 2rem 0 1rem;
+      background-image: radial-gradient(circle at 10% 30%, rgba(255,245,225,0.6) 2%, transparent 2.5%);
+      background-size: 28px 28px;
+    }
+
+    .cta-section h3 {
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: #2c553f;
+      margin-bottom: 0.5rem;
+    }
+
+    .cta-section p {
+      font-size: 1.15rem;
+      margin-bottom: 1.6rem;
+      color: #2f3e2e;
+    }
